@@ -323,6 +323,20 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 .gradient{color:#FFFFFF; background:linear-gradient(to bottom right, #8F9297, #C1C2C4);}
 
+.marquee-text {
+    font-size: 1rem;
+    color: green;
+}
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
 
 /* Header */
 #header #logo h1::before{background-color:#474747;}
