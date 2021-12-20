@@ -102,13 +102,14 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .one_third{display:inline-block; float:left; margin:0 0 0 4.21052%; list-style:none; padding-top:3%}
 
 .first{margin-left:0; clear:left;}
+.last{margin-left:0; clear:left;}
 
-.one_quarter{width:21.8421%;}
+.one_quarter{width:15.0%; float: left}
 .one_third{width:30.52631%;}
 .one_half, .two_quarter{width:47.89473%;}
 .two_third{width:65.26315%;}
-.three_quarter{width:73.94736%;}
-
+.three_quarter{width:60.0%; float: left;}
+.four_quarter{width:20%; float: left;}
 
 /* Spacing
 --------------------------------------------------------------------------------------------------------------- */
